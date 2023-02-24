@@ -16,6 +16,8 @@ import lombok.Setter;
 @Entity
 @Table(name="user_app_role")
 public class UserAppRole extends BaseModel{
+	
 	private UUID userId;
 	private UUID roleId;
+	
 }
